@@ -13,7 +13,7 @@ export const uploadImage = async (request, response) => {
     const file = await File.create(fileobj);
     response
       .status(200)
-      .json({ path: `http://localhost:3000/api/file/${file._id}` });
+      .json({ path: `https://file-sharing-backekd.onrender.com/api/file/${file._id}` });
   } catch (error) {
     response.status(600).json({ error: error.message });
   }
