@@ -14,7 +14,7 @@ router.post("", async (req, res) => {
   }
 
   // Construct the file link
-  const fileLink = `http://localhost:3000/api/file/${fileId}`; // Adjust this URL as needed
+  const fileLink = `https://file-sharing-backekd.onrender.com/api/file/${fileId}`; // Adjust this URL as needed
 
   try {
     // Send the email
