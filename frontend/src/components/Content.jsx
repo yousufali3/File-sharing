@@ -34,7 +34,7 @@ const Content = () => {
 
   const sendEmail = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/send-email", {
+      const response = await fetch("https://file-sharing-backekd.onrender.com/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
