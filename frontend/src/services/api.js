@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:3000";
+const API_URL = "https://file-sharing-backekd.onrender.com";
 
 export const uploadFile = async (data) => {
   try {
