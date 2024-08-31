@@ -78,14 +78,14 @@ const Content = () => {
 
         {result && (
           <div className="mt-10 flex flex-col items-center">
-            <a
+            {/* <a
               href={result}
               target="_blank"
               rel="noopener noreferrer"
               className="text-center text-white underline"
             >
               {result}
-            </a>
+            </a> */}
             <div className="flex items-center space-x-4 mt-4">
               <button
                 onClick={copyLinkToClipboard}
